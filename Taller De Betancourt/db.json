@@ -1,0 +1,481 @@
+{
+  "users": [
+    {
+      "email": "jefe@betancourt.com",
+      "password": "$2a$10$Fe8zKxVg9LNKYrFyyQg1NuSZ2deKStg3bHn2u5YSkeiUrubgWT8re",
+      "name": "Jefe",
+      "role": "admin",
+      "id": "1"
+    },
+    {
+      "email": "administrativo@betancourt.com",
+      "password": "$2a$10$kfqyreisbFXuF2Ip1a6AEOX82.Smk8b7rN5k0ccIrC62p2rrxYKsG",
+      "name": "Asistente Administrativo",
+      "role": "administrativo",
+      "id": "2"
+    },
+    {
+      "email": "auxiliar@betancourt.com",
+      "password": "$2a$10$L1kkvcRCA73oHwiRcTTLM.PgO1wgVi/aPTLQesr7EK6if9A0XNW4G",
+      "name": "Auxiliar De Datos",
+      "role": "auxdatos",
+      "id": "3"
+    },
+    {
+      "email": "Asignador@betancourt.com",
+      "password": "$2a$10$8owQNGvaC42D7kudHWRc9.Hbi4rU0PvXElgee.wrixggFEFmD2lgC",
+      "name": "Asignador De Servicio",
+      "role": "Asignador",
+      "id": "Hf6mKId"
+    }
+  ],
+  "productos": [
+    {
+      "id": "1",
+      "Lproducto": "Aceite Sintético 10W40",
+      "cantidad": 21,
+      "estado": "Activo",
+      "claseBadge": "bg-success"
+    }
+  ],
+  "pedidos": [
+    {
+      "nombre": "Jefe",
+      "apellido": "Taller",
+      "rol": "Jefe del taller",
+      "proveedor": "Proveedor 1",
+      "repuesto": "Aceite",
+      "cantidad": "25",
+      "importancia": "media",
+      "metodopago": "efectivo",
+      "estado": "Pendiente",
+      "id": 1
+    },
+    {
+      "nombre": "Jefe",
+      "apellido": "Taller",
+      "rol": "Jefe del taller",
+      "proveedor": "Proveedor 1",
+      "repuesto": "Bujias",
+      "cantidad": "67",
+      "importancia": "media",
+      "metodopago": "transferencia",
+      "estado": "Pendiente",
+      "id": 2
+    },
+    {
+      "nombre": "Jefe",
+      "apellido": "Taller",
+      "rol": "Jefe del taller",
+      "proveedor": "Proveedor 1",
+      "repuesto": "Filtros de aceite",
+      "cantidad": "88",
+      "importancia": "alta",
+      "metodopago": "efectivo",
+      "estado": "Pendiente",
+      "id": 3
+    },
+    {
+      "nombre": "Jefe",
+      "apellido": "Taller",
+      "rol": "Jefe del taller",
+      "proveedor": "Proveedor 1",
+      "repuesto": "Filtros de aire",
+      "cantidad": "59",
+      "importancia": "alta",
+      "metodopago": "efectivo",
+      "estado": "Pendiente",
+      "id": 4
+    },
+    {
+      "nombre": "Jefe",
+      "apellido": "Taller",
+      "rol": "Jefe del taller",
+      "proveedor": "Proveedor 3",
+      "repuesto": "Cadenas",
+      "cantidad": "37",
+      "importancia": "media",
+      "metodopago": "transferencia",
+      "estado": "Pendiente",
+      "id": 5
+    },
+    {
+      "nombre": "Jefe",
+      "apellido": "Taller",
+      "rol": "Jefe del taller",
+      "proveedor": "Proveedor 2",
+      "repuesto": "Discos de freno",
+      "cantidad": "16",
+      "importancia": "baja",
+      "metodopago": "efectivo",
+      "estado": "Pendiente",
+      "id": 6
+    },
+    {
+      "nombre": "Jefe",
+      "apellido": "Taller",
+      "rol": "Jefe del taller",
+      "proveedor": "Proveedor 2",
+      "repuesto": "Amortiguadores",
+      "cantidad": "16",
+      "importancia": "baja",
+      "metodopago": "efectivo",
+      "estado": "Pendiente",
+      "id": 7
+    },
+    {
+      "nombre": "Jefe",
+      "apellido": "Taller",
+      "rol": "Jefe del taller",
+      "proveedor": "Proveedor 3",
+      "repuesto": "Baterias",
+      "cantidad": "51",
+      "importancia": "media",
+      "metodopago": "transferencia",
+      "estado": "Pendiente",
+      "id": 8
+    },
+    {
+      "nombre": "Jefe",
+      "apellido": "Taller",
+      "rol": "Jefe del taller",
+      "proveedor": "Proveedor 3",
+      "repuesto": "Fusibles",
+      "cantidad": "58",
+      "importancia": "baja",
+      "metodopago": "transferencia",
+      "estado": "Pendiente",
+      "id": 9
+    },
+    {
+      "nombre": "Jefe",
+      "apellido": "Taller",
+      "rol": "Jefe del taller",
+      "proveedor": "Proveedor 2",
+      "repuesto": "Espejos",
+      "cantidad": "24",
+      "importancia": "baja",
+      "metodopago": "efectivo",
+      "estado": "Pendiente",
+      "id": 10
+    }
+  ],
+  "Proveedores": [
+    {
+      "proveedor": "Repuestos AutoMotor S.A.S.",
+      "telefono": "6014567821",
+      "correo": "ventas@automotor.com",
+      "ciudad": "Bogotá",
+      "estado": "Activo",
+      "id": 1
+    },
+    {
+      "proveedor": "Distribuciones El Motor",
+      "telefono": "3104567892",
+      "correo": "contacto@elmotor.com",
+      "ciudad": "Bogotá",
+      "estado": "Pendiente",
+      "id": 2
+    },
+    {
+      "proveedor": "Autopartes del Centro",
+      "telefono": "3205678912",
+      "correo": "ventas@autopartescentro.com",
+      "ciudad": "Bogotá",
+      "estado": "Inactivo",
+      "id": 3
+    },
+    {
+      "proveedor": "Frenos y Suspensión Colombia",
+      "telefono": "3156782345",
+      "correo": "comercial@frenoscolombia.com",
+      "ciudad": "Bogotá",
+      "estado": "Pendiente",
+      "id": 4
+    },
+    {
+      "proveedor": "Lubricantes y Filtros S.A.S.",
+      "telefono": "3007894561",
+      "correo": "ventas@lubrifiltros.com",
+      "ciudad": "Bogotá",
+      "estado": "Activo",
+      "id": 5
+    },
+    {
+      "proveedor": "Baterías Colombia",
+      "telefono": "3112345678",
+      "correo": "pedidos@bateriascolombia.com",
+      "ciudad": "Bogotá",
+      "estado": "Activo",
+      "id": 6
+    },
+    {
+      "proveedor": "Repuestos La 68",
+      "telefono": "3123456789",
+      "correo": "repuestosla68@gmail.com",
+      "ciudad": "Bogotá",
+      "estado": "Pendiente",
+      "id": 7
+    },
+    {
+      "proveedor": "Autopartes Nacionales",
+      "telefono": "3167891234",
+      "correo": "ventas@autopartesnacionales.com",
+      "ciudad": "Medellín",
+      "estado": "Activo",
+      "id": 8
+    },
+    {
+      "proveedor": "Motores y Repuestos J&A",
+      "telefono": "3015678234",
+      "correo": "contacto@motoresya.com",
+      "ciudad": "Cali",
+      "estado": "Inactivo",
+      "id": 9
+    },
+    {
+      "proveedor": "Importadora AutoPartes",
+      "telefono": "3184567290",
+      "correo": "ventas@importadoraautopartes.com",
+      "ciudad": "Bogotá",
+      "estado": "Activo",
+      "id": 10
+    }
+  ],
+  "Pro_Facturas": [
+    {
+      "proveedor": "Repuestos AutoMotor S.A.S.",
+      "numeroFactura": "01",
+      "fecha": "2026-09-22",
+      "subtotal": 300000,
+      "iva": 57000,
+      "total": 357000,
+      "formaPago": "Efectivo",
+      "estado": "Pagada",
+      "id": 1
+    },
+    {
+      "proveedor": "Distribuciones El Motor",
+      "numeroFactura": "2",
+      "fecha": "2026-09-23",
+      "subtotal": 50000000,
+      "iva": 9500000,
+      "total": 59500000,
+      "formaPago": "Tarjeta",
+      "estado": "Anulada",
+      "id": 2
+    },
+    {
+      "proveedor": "Autopartes del Centro",
+      "numeroFactura": "3",
+      "fecha": "2026-09-23",
+      "subtotal": 750000,
+      "iva": 142500,
+      "total": 892500,
+      "formaPago": "Transferencia",
+      "estado": "Pendiente",
+      "id": 3
+    },
+    {
+      "proveedor": "Frenos y Suspensión Colombia",
+      "numeroFactura": "4",
+      "fecha": "2026-09-20",
+      "subtotal": 2000000,
+      "iva": 380000,
+      "total": 2380000,
+      "formaPago": "Efectivo",
+      "estado": "Pagada",
+      "id": 4
+    },
+    {
+      "proveedor": "Lubricantes y Filtros S.A.S.",
+      "numeroFactura": "5",
+      "fecha": "2026-09-23",
+      "subtotal": 1500000,
+      "iva": 285000,
+      "total": 1785000,
+      "formaPago": "Transferencia",
+      "estado": "Pendiente",
+      "id": 5
+    },
+    {
+      "proveedor": "Baterías Colombia",
+      "numeroFactura": "6",
+      "fecha": "2026-09-18",
+      "subtotal": 15000000,
+      "iva": 2850000,
+      "total": 17850000,
+      "formaPago": "Efectivo",
+      "estado": "Anulada",
+      "id": 6
+    },
+    {
+      "proveedor": "Repuestos La 68",
+      "numeroFactura": "7",
+      "fecha": "2026-09-23",
+      "subtotal": 500000,
+      "iva": 95000,
+      "total": 595000,
+      "formaPago": "Transferencia",
+      "estado": "Pagada",
+      "id": 7
+    },
+    {
+      "proveedor": "Autopartes Nacionales",
+      "numeroFactura": "8",
+      "fecha": "2026-09-23",
+      "subtotal": 10000000,
+      "iva": 1900000,
+      "total": 11900000,
+      "formaPago": "Tarjeta",
+      "estado": "Pagada",
+      "id": 8
+    },
+    {
+      "proveedor": "Motores y Repuestos J&A",
+      "numeroFactura": "9",
+      "fecha": "2026-09-23",
+      "subtotal": 15000000,
+      "iva": 2850000,
+      "total": 17850000,
+      "formaPago": "Crédito",
+      "estado": "Pendiente",
+      "id": 9
+    },
+    {
+      "proveedor": "Importadora AutoPartes",
+      "numeroFactura": "10",
+      "fecha": "2026-09-23",
+      "subtotal": 9000000,
+      "iva": 1710000,
+      "total": 10710000,
+      "formaPago": "Efectivo",
+      "estado": "Pagada",
+      "id": 10
+    }
+  ],
+  "Pro_Calificacion": [
+    {
+      "proveedor": "Repuestos AutoMotor S.A.S.",
+      "fecha": "2026-09-23",
+      "tiempo": 4,
+      "calidad": 5,
+      "cumplimiento": 4,
+      "precio": 3,
+      "promedio": 4,
+      "id": 1
+    },
+    {
+      "proveedor": "Distribuciones El Motor",
+      "fecha": "2026-09-23",
+      "tiempo": 5,
+      "calidad": 5,
+      "cumplimiento": 5,
+      "precio": 5,
+      "promedio": 5,
+      "id": 2
+    },
+    {
+      "proveedor": "Autopartes del Centro",
+      "fecha": "2026-09-23",
+      "tiempo": 3,
+      "calidad": 2,
+      "cumplimiento": 2,
+      "precio": 1,
+      "promedio": 2,
+      "id": 3
+    },
+    {
+      "proveedor": "Frenos y Suspensión Colombia",
+      "fecha": "2026-09-23",
+      "tiempo": 5,
+      "calidad": 5,
+      "cumplimiento": 4,
+      "precio": 4,
+      "promedio": 4.5,
+      "id": 4
+    }
+  ],
+  "AsignarServicios": [
+    {
+      "id": 1790203449156,
+      "servicio": "Cambio de aceite y filtro",
+      "descripcion": "Cambio de aceite de motor y filtro de aceite",
+      "trabajador": "trabajador 1",
+      "fecha": "2004-08-22",
+      "estado": "Finalizado"
+    },
+    {
+      "id": 1790203483244,
+      "servicio": "Alineación y balanceo",
+      "descripcion": "Ajuste de ángulos de dirección y balanceo de las llantas",
+      "trabajador": "trabajador 3",
+      "fecha": "2009-12-07",
+      "estado": "Asignado"
+    },
+    {
+      "id": 1790203539502,
+      "servicio": "Cambio de pastillas de freno",
+      "descripcion": "Reemplazo de pastillas y revisión del sistema de frenos",
+      "trabajador": "trabajador 3",
+      "fecha": "2001-09-11",
+      "estado": "Finalizado"
+    },
+    {
+      "id": 1790203567030,
+      "servicio": "Revisión de suspensión",
+      "descripcion": "Inspección y cambio de amortiguadores, rótulas y terminales",
+      "trabajador": "trabajador 2",
+      "fecha": "2006-09-29",
+      "estado": "Pendiente"
+    },
+    {
+      "id": 1790203631904,
+      "servicio": "Sincronización del motor",
+      "descripcion": "Cambio de bujías, filtros y ajuste general del motor",
+      "trabajador": "trabajador 2",
+      "fecha": "2022-07-30",
+      "estado": "Pendiente"
+    },
+    {
+      "id": 1790203683881,
+      "servicio": "Diagnóstico con escáner",
+      "descripcion": "Lectura de códigos de falla y revisión electrónica del vehículo",
+      "trabajador": "trabajador 3",
+      "fecha": "2020-01-03",
+      "estado": "Asignado"
+    },
+    {
+      "id": 1790203734970,
+      "servicio": "Cambio de kit de embrague",
+      "descripcion": "Reemplazo de disco, prensa y balinera del embrague",
+      "trabajador": "trabajador 1",
+      "fecha": "2016-05-08",
+      "estado": "Pendiente"
+    },
+    {
+      "id": 1790203766403,
+      "servicio": "Cambio de correa de repartición",
+      "descripcion": "Sustitución de correa de tiempo, tensores y bomba de agua",
+      "trabajador": "trabajador 2",
+      "fecha": "2012-03-22",
+      "estado": "Finalizado"
+    },
+    {
+      "id": 1790203809340,
+      "servicio": "Servicio de aire acondicionado",
+      "descripcion": "Recarga de gas, revisión de fugas y limpieza del sistema",
+      "trabajador": "trabajador 1",
+      "fecha": "2023-04-16",
+      "estado": "Pendiente"
+    },
+    {
+      "id": 1790203858325,
+      "servicio": "Mantenimiento de batería y sistema eléctrico",
+      "descripcion": "Prueba de batería, alternador y motor de arranque",
+      "trabajador": "trabajador 1",
+      "fecha": "2019-11-18",
+      "estado": "Asignado"
+    }
+  ]
+}
